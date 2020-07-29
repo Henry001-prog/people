@@ -39,12 +39,12 @@ export default class PeoplePage extends React.Component {
 
   async search() {
     try {
-    const response = await axios.get('https://randomuser.me/api/?nat=br&results=15')
-    const { results } = response.data;
-        this.setState({
-          peoples: results,
-          loading: false,
-        })
+      const response = await axios.get('https://randomuser.me/api/?nat=br&results=15');
+      const { results } = response.data;
+          this.setState({
+            peoples: results,
+            loading: false,
+          })
       } catch (error) {
           this.setState({
             loading: false,

@@ -53,7 +53,7 @@ export default class PeoplePage extends React.Component {
       };
   }
 
-  /// renderPage() {
+  // renderPage() {
   //   if (this.state.loading) {
   //       return <ActivityIndicator size='large' color='#6ca2f7' />;
   //   } 
